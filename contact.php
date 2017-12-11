@@ -4,7 +4,23 @@
 <link type="text/css" rel="stylesheet" href="style.css">
 </head>
 <body>
-	<?php include 'upper.html' ?>
+	<div id="upper">
+		<img id="dp_img" src="img/me.jpg">
+		<div id="intro"><h2>Memunat A. Ibrahim</h2> Member at <b>Sparkplug</b><br>Lives in Lagos State, Nigeria
+			<ul id="nav">
+				<li><a href="index.html">Homepage</a></li>
+				<li><a href="about.html">About</a></li>
+				<li><a href="portfolio.html">Portfolio</a></li>
+				<li><a href="contact.html">Contact</a></li>
+			</ul>
+		</div>
+		<ul id="media" style="position: absolute; top:8%; margin-left: 60%">
+			<li><a href="http://www.facebook.com/memunatj"><img src="img/facebookIcon.jpg"/></a></li>
+			<li><a href="http://www.twitter.com/IbrahimMemmusty"><img src="img/twitterIcon.jpg"/></a></li>
+			<li><a href="http://www.linkedin.com/in/memunat-ibrahim-0abb20141"><img src="img/linkedinIcon.jpg"/></a></li>
+			<li><a href="http://www.github.com/memmusty"><img src="img/github.jpg"/></a></li>
+		</ul>
+</div>
 	<div id="lower">&nbsp;
 		<table style="width: 65%; margin-left: 15%;">
 			<tr>

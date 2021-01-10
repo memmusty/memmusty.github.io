@@ -1,83 +1,60 @@
-<html>
-<head>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-<title></title>
-<link type="text/css" rel="stylesheet" href="style.css">
-<!-- Start of Async Drift Code -->
-<script>
-"use strict";
-
-!function() {
-  var t = window.driftt = window.drift = window.driftt || [];
-  if (!t.init) {
-    if (t.invoked) return void (window.console && console.error && console.error("Drift snippet included twice."));
-    t.invoked = !0, t.methods = [ "identify", "config", "track", "reset", "debug", "show", "ping", "page", "hide", "off", "on" ], 
-    t.factory = function(e) {
-      return function() {
-        var n = Array.prototype.slice.call(arguments);
-        return n.unshift(e), t.push(n), t;
-      };
-    }, t.methods.forEach(function(e) {
-      t[e] = t.factory(e);
-    }), t.load = function(t) {
-      var e = 3e5, n = Math.ceil(new Date() / e) * e, o = document.createElement("script");
-      o.type = "text/javascript", o.async = !0, o.crossorigin = "anonymous", o.src = "https://js.driftt.com/include/" + n + "/" + t + ".js";
-      var i = document.getElementsByTagName("script")[0];
-      i.parentNode.insertBefore(o, i);
-    };
-  }
-}();
-drift.SNIPPET_VERSION = '0.3.1';
-drift.load('5rwm9si5fch6');
-</script>
-<!-- End of Async Drift Code -->
-</head>
-<body>
-	<div id="upper">
-		<img id="dp_img" src="img/me.jpg">
-		<div id="intro"><h2>Memunat A. Ibrahim</h2> Member at <b>Sparkplug</b><br>Lives in Lagos State, Nigeria
-			<ul id="nav">
-				<li><a href="index.html">Homepage</a></li>
-				<li><a href="about.html">About</a></li>
-				<li><a href="portfolio.html">Portfolio</a></li>
-				<li><a href="contact.html">Contact</a></li>
-			</ul>
-		</div>
-		<ul id="media" style="position: absolute; top:8%; margin-left: 60%">
-			<li><a href="http://www.facebook.com/memunatj"><img src="img/facebookIcon.jpg"/></a></li>
-			<li><a href="http://www.twitter.com/IbrahimMemmusty"><img src="img/twitterIcon.jpg"/></a></li>
-			<li><a href="http://www.linkedin.com/in/memunat-ibrahim-0abb20141"><img src="img/linkedinIcon.jpg"/></a></li>
-			<li><a href="http://www.github.com/memmusty"><img src="img/github.jpg"/></a></li>
-		</ul>
-</div>
-	<div id="lower">&nbsp;
-		<div id="skill">
-			<b style="font-size: 20px;">My Core Skills:</b>&nbsp; 
-			<span style="padding:5px; background-color: white;"> Web Development <img style="height: 15px; margin-top: 2px;" src="img/star.png"/><img style="height: 15px; margin-top: 2px;" src="img/star.png"/><img style="height: 15px; margin-top: 2px;" src="img/star.png"/>
-			</span> &nbsp; 
-			<span style="padding:5px; background-color: white;"> Database Management <img style="height: 15px; margin-top: 2px;" src="img/star.png"/><img 	style="height: 15px; margin-top: 2px;" src="img/star.png"/><img style="height: 15px; margin-top: 2px;" src="img/star.png"/><img style="height: 15px; margin-top: 2px;" src="img/star.png"/>
-			</span> &nbsp; 
-			<span style="padding:5px; background-color: white;"> Desktop Application Development <img style="height: 15px; margin-top: 2px;" src="img/star.png"/><img style="height: 15px; margin-top: 2px;" src="img/star.png"/><img style="height: 15px; margin-top: 2px;" src="img/star.png"/><img style="height: 15px; margin-top: 2px;" src="img/star.png"/>
-			</span>
-		</div>
-		<div id="bio">
-			<b style="font-size: 20px;">Professional Bio</b><br><br>
-			<span style="font-size: 17px;">Studied Computer Science at the Federal University Lokoja<br><br> 
-			I am currently enrolled in the sparkplug program, where to hope to gain some professional experience.</span>
-		</div>
-		<div id="names">
-			<b style="font-size: 20px;">Where I Write</b>
-			<table cellspacing="10px">
-				<tr>
-					<td><b>LinkedIn</b></td>
-					<td style="padding-left: 30px">Memmusty</td>
-				</tr>
-				<tr>
-					<td><b>Facebook</b></td>
-					<td style="padding-left: 30px">Memunat Juwon</td>
-				</tr>
-			</table>
-		</div>
-	</div>
-</body>
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Memunat A. Ibrahim Portfolio</title>
+        <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v5.13.0/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+    </head>
+    <body id="page-top">
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+            <div class="container">
+                <a class="navbar-brand js-scroll-trigger" href="index.html">Memunat I.</a><button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">Menu<i class="fas fa-bars"></i></button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="about.html">About</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="portfolio.html">Portfolio</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Masthead-->
+        <div class="intro-image">
+			<header class="masthead">
+				<div class="container d-flex h-100 align-items-center">
+					<div class="mx-auto text-center">
+						<h1 class="mx-auto my-0 ">Memunat A. Ibrahim</h1>
+						<h2 class="text-white mx-auto mt-2 mb-1">Study and solve problems.<br/>
+							<span style="font-size: 1.2rem;">Analyst | Programmer | Engineer | Researcher</span>
+							<br/><i style="font-size: 0.96rem;">Sometimes described as a generalist</i>
+							<br/><span style="font-size: 0.98rem;">Believes every skill learned is a relevant tool in her toolbox</span>
+							<p class="mt-4" style="font-size: 0.98rem;">Currently exploring - AI and data governance | Mechanism Design and game theory</p></h2>
+						
+							<a class="btn btn-primary js-scroll-trigger" href="about.html">Who Am I</a>&nbsp;&nbsp;
+							<a class="btn btn-primary js-scroll-trigger" href="portfolio.html">Works</a>
+					</div>
+				</div>
+			</header>
+    	</div>
+        <!-- Footer-->
+        <footer class="footer bg-black small text-center text-white-50"><div class="container">Copyright © Memunati. 2020</div></footer>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.bundle.min.js"></script>
+        <!-- Third party plugin JS-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+    </body>
 </html>

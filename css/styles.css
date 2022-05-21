@@ -161,7 +161,7 @@ sup {
 
 a {
   color: #B24C53;
-  text-decoration: none;
+  text-decoration: underline;
   background-color: transparent;
 }
 a:hover {
